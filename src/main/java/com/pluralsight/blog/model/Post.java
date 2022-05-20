@@ -18,7 +18,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Version private long version;
+    @Version private Long version;
 
     @NotNull
     @Size(min = 4, max = 100)
